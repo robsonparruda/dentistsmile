@@ -3802,29 +3802,29 @@ fieldset[disabled] a.btn {
 
 .btn-default {
 	color: #fff;
-	background-color: #3dadb2;
-	border-color: #3dadb2
+	background-color: #F07D00;
+	border-color: #F07D00
 }
 
 .btn-default:focus,
 .btn-default.focus {
 	color: #fff;
-	background-color: #30888c;
-	border-color: #1c5153
+	background-color: #F18B1D;
+	border-color: #F18B1D
 }
 
 .btn-default:hover {
 	color: #fff;
-	background-color: #30888c;
-	border-color: #2d8184
+	background-color: #F18B1D;
+	border-color: #F18B1D
 }
 
 .btn-default:active,
 .btn-default.active,
 .open>.btn-default.dropdown-toggle {
 	color: #fff;
-	background-color: #30888c;
-	border-color: #2d8184
+	background-color: #F18B1D;
+	border-color: #F18B1D
 }
 
 .btn-default:active:hover,
@@ -8312,6 +8312,10 @@ strong {
 	background: #F07D00
 }
 
+.icn-whats:hover {
+	color: #201E57
+}
+
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
@@ -8354,13 +8358,13 @@ strong {
 
 .hero .icon {
 	margin-right: 10px;
-	color: #3dadb2;
+	color: #F07D00;
 	vertical-align: top
 }
 
 .hero-content {
 	padding: 20px 0;
-	background: rgba(255, 255, 255, 0.7)
+	background: #201E57
 }
 
 @media (min-width: 768px) {
@@ -8378,13 +8382,14 @@ strong {
 	}
 }
 
-.hero-content h1 {
+.hero-content h1 {	
 	margin: 0 0 5px;
-	color: #3dadb2
+	color: #fff
 }
 
 .hero-content p {
-	font-size: 1.125rem
+	font-size: 1.125rem;
+	color: #fff
 }
 
 .form {
@@ -8437,15 +8442,15 @@ strong {
 }
 
 .three-shade-col [class^="col-"]:nth-child(1) {
-	background: #3dadb2
+	background: #F07D00
 }
 
 .three-shade-col [class^="col-"]:nth-child(2) {
-	background: #201E57
+	background: #F18B1D
 }
 
 .three-shade-col [class^="col-"]:nth-child(3) {
-	background: #44babf
+	background: #F07D00
 }
 
 .three-shade-col .icon {
